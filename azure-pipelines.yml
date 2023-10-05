@@ -17,5 +17,5 @@ stages:
     - script: echo "echo 'Hello world!'" > hello.sh
       displayName: 'Build hello world'
       
-  - publish: 'hello.sh'
-      artifact: drop
+    - publish: 'hello.sh'
+        artifact: drop

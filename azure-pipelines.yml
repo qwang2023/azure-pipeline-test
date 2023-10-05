@@ -27,8 +27,6 @@ stages:
   jobs:
   - deployment: Deploy
     environment: dev
-    variables:
-    - group: Release
     strategy:
       runOnce:
         deploy:
